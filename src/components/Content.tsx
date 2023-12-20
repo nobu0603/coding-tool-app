@@ -70,7 +70,7 @@ export default function Content() {
             <div className='flex justify-between'>
                 <div className="max-w-[60%] w-full flex flex-col gap-3">
                     <div>
-                        <label htmlFor='textArea' className="mb-1 block text-sm font-medium text-gray-700">Your HTMl Code</label>
+                        <label htmlFor='textArea' className="mb-1 block text-sm font-medium text-gray-700">Your HTML Code</label>
                         <textarea id="textArea" className="block w-full p-2 rounded-md border-gray-300 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 disabled:cursor-not-allowed disabled:bg-gray-50" rows={30} placeholder="Paste Your HTML Code"></textarea>
                     </div>
                     <div className="w-full">
